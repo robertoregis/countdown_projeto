@@ -6,11 +6,11 @@
 ---
 
 # 🔍 Indíce
-- [Projeto Agenda](#-projeto-agenda)
+- [Countdown](#-countdown)
 - [Fundamento do Projeto](#-fundamento-do-projeto)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
 
-# 📕 Projeto Agenda
+# 📕 Countdown
 
 O projeto **Countdown** é um contador regressivo. Foi feito por mim com os conhecimentos que havia adquirido. É um projeto que tenho muito carinho, pois me levou a entender que é possível criar projetos maravilhoso.
 
