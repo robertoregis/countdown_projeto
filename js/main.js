@@ -45,8 +45,13 @@ iniciar.addEventListener('click', () => {
 
 numero.addEventListener('click', () => {
     xy = prompt('Escolha os minutos (0.2 seria 2 sgundos): ');
-    stoped = true;
-    alert('A contagem já pode ser iniciada. Por favor não clique no botão iniciar em quanto estiver sendo feito a contagem. :Este bug ainda não foi corrigido (caso clique recarregue a página)');
+    if(xy > 0) {
+        stoped = true;
+        alert('A contagem já pode ser iniciada. Por favor não clique no botão iniciar em quanto estiver sendo feito a contagem. :Este bug ainda não foi corrigido (caso clique recarregue a página)');
+
+    } else {
+        alert('Não pode escolher 0');
+    }
 });
 
 stop.addEventListener('click', () => {
