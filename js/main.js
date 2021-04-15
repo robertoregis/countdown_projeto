@@ -7,6 +7,7 @@ let stoped = false;
 let count = 1;
 let xy;
 let init = false; // permitir o uso do stop
+let acrescimo = 0;
 
 iniciar.addEventListener('click', () => {
     if(stoped == true) {
@@ -15,6 +16,7 @@ iniciar.addEventListener('click', () => {
         let time = startingMinutes * 60;
 
         xy = time;
+
         init = true;        
         const countdownEl = document.querySelector('#countdown');
         

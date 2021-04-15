@@ -10,8 +10,12 @@ html {
     background-color: teal;
 }
 
+span {
+    color: rgb(0, 58, 58);
+}
+
 .section {
-    margin-top: 44px;
+    margin-top: 4%;
 }
 
 .container {
@@ -104,4 +108,270 @@ html {
     background: teal;
     color: rgb(255, 255, 255);
     margin-left: 10px;
+}
+
+@media screen and (min-width: 280px) {
+    .container {
+        max-width: 180px;
+        width: 60%;
+        height: 180px;
+    }
+
+    .section {
+        margin-top: 62%;
+    }
+
+    .ocult-2 {
+        position: relative;
+        top: 30px;
+    }
+
+    .container h1 {
+        margin-bottom: 3px;
+        font-size: 0.6rem;
+    }
+    
+    .options {
+        margin-bottom: 7px;
+        font-size: 1.3rem;
+    }
+    
+    .count {
+        width: 50%;
+        height: 25px;
+    }
+    
+    .count p {
+        font-size: 2rem;
+        padding: 1px;
+    }
+
+    .flex {
+        margin-top: 23px;
+    }
+
+    #number {
+        width: 28%;
+        font-size: 0.65rem;
+    }
+
+    #start {
+        width: 19%;
+        font-size: 0.65rem;
+        margin-left: 6px;
+    }
+
+    #stop {
+        width: 19%;
+        font-size: 0.7rem;
+        margin-left: 6px;
+    }
+}
+
+@media screen and (min-width: 345px) {
+    .container {
+        max-width: 220px;
+        width: 60%;
+        height: 220px;
+    }
+
+    .section {
+        margin-top: 48%;
+    }
+
+    .ocult-2 {
+        position: relative;
+        top: 35px;
+    }
+
+    .container h1 {
+        margin-bottom: 6px;
+        font-size: 0.7rem;
+    }
+    
+    .options {
+        margin-bottom: 11px;
+        font-size: 1.7rem;
+    }
+    
+    .count {
+        width: 50%;
+        height: 27px;
+    }
+    
+    .count p {
+        font-size: 2.3rem;
+        padding: 4px;
+    }
+
+    .flex {
+        margin-top: 40px;
+    }
+
+    #number {
+        width: 25%;
+        font-size: 0.6rem;
+    }
+
+    #start {
+        width: 17%;
+        font-size: 0.65rem;
+    }
+
+    #stop {
+        width: 17%;
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (min-width: 427px) {
+    .container {
+        max-width: 280px;
+        width: 60%;
+        height: 280px;
+    }
+
+    .section {
+        margin-top: 30%;
+    }
+
+    .ocult-2 {
+        position: relative;
+        top: 50px;
+    }
+
+    .container h1 {
+        margin-bottom: 10px;
+        font-size: 0.8rem;
+    }
+    
+    .options {
+        margin-bottom: 17px;
+        font-size: 2rem;
+    }
+    
+    .count {
+        width: 46%;
+        height: 45px;
+    }
+    
+    .count p {
+        font-size: 3rem;
+        padding: 7px;
+    }
+
+    .flex {
+        margin-top: 40px;
+    }
+
+    #number {
+        width: 23%;
+        font-size: 0.7rem;
+    }
+
+    #start {
+        font-size: 0.75rem;
+    }
+
+    #stop {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 490px) {
+    .container {
+        max-width: 340px;
+        width: 60%;
+        height: 340px;
+    }
+
+    .section {
+        margin-top: 21%;
+    }
+
+    .ocult-2 {
+        position: relative;
+        top: 60px;
+    }
+
+    .container h1 {
+        margin-bottom: 14px;
+        font-size: 0.9rem;
+    }
+    
+    .options {
+        margin-bottom: 24px;
+        text-align: center;
+        font-size: 2.1rem;
+    }
+    
+    .count {
+        width: 38%;
+        height: 45px;
+    }
+    
+    .count p {
+        font-size: 3rem;
+        padding: 7px;
+    }
+
+    .flex {
+        margin-top: 60px;
+    }
+
+    #number {
+        width: 21%;
+        font-size: 0.8rem;
+    }
+
+    #start {
+        font-size: 0.85rem;
+    }
+
+    #stop {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    .container {
+        max-width: 420px;
+        width: 60%;
+        height: 420px;
+    }
+
+    .section {
+        margin-top: 12%;
+    }
+
+    .ocult-2 {
+        position: relative;
+        top: 80px;
+    }
+
+    .container h1 {
+        margin-bottom: 18px;
+        color: teal;
+        font-size: 1rem;
+    }
+    
+    .options {
+        margin-bottom: 28px;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    .count {
+        width: 36%;
+        height: 60px;
+        margin: 0 auto;
+    }
+    
+    .count p {
+        font-size: 3.7rem;
+    }
+
+    .flex {
+        margin-top: 65px;
+    }
 }
