@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+    /*background-image: url('../img/game.jpg');
+    background-repeat: no-repeat;*/
+    background-color: teal;
+}
+
+.section {
+    margin-top: 44px;
+}
+
+.container {
+    max-width: 540px;
+    width: 70%;
+    height: 540px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.container h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: teal;
+    font-size: 1rem;
+}
+
+.ocult-2 {
+    width: 100%;
+    position: relative;
+    top: 130px;
+}
+
+.options {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: teal;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.count {
+    width: 30%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.count p {
+    font-size: 4rem;
+    background-color: teal;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+
+#number {
+    width: 18%;
+    height: 25px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    background: teal;
+    color: rgb(255, 255, 255);
+}
+
+#start {
+    width: 16%;
+    height: 25px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    background: teal;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+#stop {
+    width: 16%;
+    height: 25px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    background: teal;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
